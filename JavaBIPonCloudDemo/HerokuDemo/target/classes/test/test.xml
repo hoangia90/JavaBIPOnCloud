@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<glue>
+    <accepts>
+        <accept>
+            <effect id="print" specType="org.javabip.executor.monitor.test1"/>
+            <causes>
+               <port id="print" specType="org.javabip.executor.monitor.test2"/>
+            </causes>
+        </accept>
+    </accepts>
+</glue>
