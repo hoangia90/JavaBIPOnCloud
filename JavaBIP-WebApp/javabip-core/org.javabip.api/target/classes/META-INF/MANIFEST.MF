@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-Description: It contains api packages of BIP project.
+Bundle-SymbolicName: org.javabip.api
+Built-By: Gia
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1571921457190
+Tool: Bnd-1.43.0
+Export-Package: org.javabip.exceptions;version="0.1.0.SNAPSHOT",org.ja
+ vabip.api;uses:="org.javabip.exceptions";version="0.1.0.SNAPSHOT",org
+ .javabip.annotations;uses:="org.javabip.api";version="0.1.0.SNAPSHOT"
+Bundle-Version: 0.1.0.SNAPSHOT
+Bundle-Name: BIP :: Core :: API
+Embed-Transitive: true
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_192
+

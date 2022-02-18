@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1571923675271
+Build-Jdk: 1.8.0_192
+Built-By: Gia
+Bundle-Description: It is an engine API.
+Bundle-ManifestVersion: 2
+Bundle-Name: BIP :: Engine :: BDD
+Bundle-SymbolicName: org.javabip.org.javabip.engine.bdd
+Bundle-Version: 0.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: net.sf.javabdd;uses:="jdd.bdd,jdd.util";version="0.1.0.S
+ NAPSHOT"
+Import-Package: jdd.bdd;resolution:=optional,jdd.util;resolution:=option
+ al
+Tool: Bnd-1.50.0

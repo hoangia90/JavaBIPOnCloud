@@ -1,0 +1,16 @@
+Heroku:
+1/ Install Heroku CLI
+sudo snap install --classic heroku
+(https://devcenter.heroku.com/articles/heroku-cli)
+
+2/ Authentication
+heroku login --interactive
+heroku: Enter your login credentials
+Email: hoangia90@gmail.com
+Password: *********
+
+3/ 
+
+Azure:
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+(https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest)

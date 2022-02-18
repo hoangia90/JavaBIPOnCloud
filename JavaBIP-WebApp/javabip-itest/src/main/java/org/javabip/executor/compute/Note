@@ -1,0 +1,22 @@
+//		String uri = request.getScheme() + "://" +   // "http" + "://
+//	             request.getServerName() +       // "myhost"
+//	             ":" +                           // ":"
+//	             request.getServerPort() +       // "8080"
+//	             request.getRequestURI() +       // "/people"
+//	             "?" +                           // "?"
+//	             request.getQueryString();       // "lastname=Fox&age=30"
+//		System.out.println(uri + " " + request.getRequestURL().toString());
+
+
+	    //XML format
+//		PrintWriter out = response.getWriter();
+//		StringBuffer sb=new StringBuffer();
+//		sb.append("<?xml version='1.0' encoding='ISO-8859-1'?>\n");
+//		sb.append("<response>");
+//		sb.append("<randomNumber>" +n+ "</randomNumber>\n");
+//		sb.append("<counter>" +counter.getCounter()+ "</counter>\n");
+//		sb.append("<limit>" +limit+ "</limit>\n");
+//		sb.append("<server>" +request.getRequestURL().toString()+ "</server>\n");
+//		sb.append("</response>"); 
+//		out.println(sb.toString());
+//		out.flush();

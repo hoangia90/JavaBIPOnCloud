@@ -1,0 +1,13 @@
+org\javabip\glue\ListElementType.class
+org\javabip\glue\ListType.class
+org\javabip\glue\RequireImpl.class
+org\javabip\glue\ManySynchronGlueBuilder.class
+org\javabip\glue\XmlGenericListAdapter.class
+org\javabip\glue\DataWireImpl.class
+org\javabip\glue\TwoSynchronGlueBuilder$SynchronBuilder.class
+org\javabip\glue\AcceptImpl.class
+org\javabip\glue\BIPGlueImpl.class
+org\javabip\glue\GlueBuilder.class
+org\javabip\glue\GlueBuilder$DataWireBuilder.class
+org\javabip\glue\TwoSynchronGlueBuilder.class
+org\javabip\glue\PortBaseImpl.class

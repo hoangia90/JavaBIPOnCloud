@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+\Users\gia\Desktop\JavaBIP 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\303746745.index
+\javabip-itest\src\main\java
+C:\Users\Gia\Desktop\JavaBIP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\321109587.index
+\javabip-itest\src\main\java
