@@ -1,0 +1,16 @@
+Heroku:
+1/ Install Heroku CLI
+sudo snap install --classic heroku
+(https://devcenter.heroku.com/articles/heroku-cli)
+
+2/ Authentication
+heroku login --interactive
+heroku: Enter your login credentials
+Email: hoangia90@gmail.com
+Password: *********
+
+3/ Create Client
+curl -n -X POST https://api.heroku.com/oauth/clients -d '{ "name": "example", "redirect_uri": "https://example.com/auth/heroku/callback" }' -H "Content-Type: application/json" -H "Accept: application/vnd.heroku+json; version=3"
+
+4/ Delete Client
+curl -n -X DELETE https://api.heroku.com/oauth/clients/$clientID -H "Content-Type: application/json" -H "Accept: application/vnd.heroku+json; version=3"

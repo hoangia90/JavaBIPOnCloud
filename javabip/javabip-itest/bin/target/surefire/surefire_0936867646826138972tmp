@@ -1,0 +1,6 @@
+#surefire_0
+#Mon Nov 12 10:32:28 CET 2018
+log4j.configuration=file\:/home/royal/Desktop/javabip/javabip-itest/src/test/resources/log4j-build.properties
+basedir=/home/royal/Desktop/javabip/javabip-itest
+user.dir=/home/royal/Desktop/javabip/javabip-itest
+localRepository=/home/royal/.m2/repository

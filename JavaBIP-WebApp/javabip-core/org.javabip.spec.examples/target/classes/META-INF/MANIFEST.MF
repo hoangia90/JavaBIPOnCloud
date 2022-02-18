@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-Description: It contains examples of the specs.
+Bundle-SymbolicName: org.javabip.spec.examples
+Built-By: Gia
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1571921461785
+Import-Package: org.apache.camel;version="[2.15,3)",org.apache.camel.m
+ odel;version="[2.15,3)",org.apache.camel.spi;version="[2.15,3)",org.j
+ avabip.annotations;version="[0.1,1)",org.javabip.api;version="[0.1,1)
+ ",org.javabip.exceptions;version="[0.1,1)",org.javabip.executor;versi
+ on="[0.1,1)",org.javabip.glue;version="[0.1,1)",org.slf4j;version="[1
+ .5,2)",org.springframework.beans.factory;version="[3.1,4)"
+Tool: Bnd-1.43.0
+Export-Package: org.javabip.spec;uses:="org.slf4j,org.javabip.api,org.
+ javabip.annotations,org.javabip.executor,org.javabip.exceptions,org.a
+ pache.camel,org.apache.camel.spi,org.springframework.beans.factory,or
+ g.apache.camel.model";version="0.1.0.SNAPSHOT",org.javabip.spec.hanoi
+ ;uses:="org.javabip.glue,org.slf4j,org.javabip.api,org.javabip.annota
+ tions,org.javabip.executor";version="0.1.0.SNAPSHOT",org.javabip.spec
+ .diningphilosophers;uses:="org.javabip.glue,org.slf4j,org.javabip.api
+ ,org.javabip.annotations";version="0.1.0.SNAPSHOT",org.javabip.spec.s
+ eal;uses:="org.slf4j,org.javabip.api,org.javabip.annotations";version
+ ="0.1.0.SNAPSHOT"
+Bundle-Version: 0.1.0.SNAPSHOT
+Bundle-Name: BIP :: Core :: Spec :: Examples
+Embed-Transitive: true
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_192
+

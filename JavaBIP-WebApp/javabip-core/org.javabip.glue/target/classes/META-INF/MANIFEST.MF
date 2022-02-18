@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-Description: It contains glue related classes.
+Bundle-SymbolicName: org.javabip.glue
+Built-By: Gia
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1571921458185
+Import-Package: javafx.util,javax.xml.bind,javax.xml.bind.annotation,j
+ avax.xml.bind.annotation.adapters,org.javabip.annotations;version="[0
+ .1,1)",org.javabip.api;version="[0.1,1)"
+Tool: Bnd-1.43.0
+Export-Package: org.javabip.glue;uses:="javax.xml.bind.annotation,org.
+ javabip.api,javax.xml.bind,org.javabip.annotations,javafx.util,javax.
+ xml.bind.annotation.adapters";version="0.1.0.SNAPSHOT"
+Bundle-Version: 0.1.0.SNAPSHOT
+Bundle-Name: BIP :: Core :: Glue
+Embed-Transitive: true
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_192
+

@@ -1,0 +1,26 @@
+Heroku deployment in distance:
+1/ Install the Heroku CLI on the machine that deploys apps
+	- Code: heroku plugins:install java 
+2/ Deploy a war file to created Heroku app 
+	Create an app on Heroku
+	- Code: heroku create AppName or heroku create (with a random name)
+	Deploy a war file to the app
+	- Code: heroku war:deploy <path_to_war_file> --app <app_name>
+3/ Create a SQL database for a Heroku app 
+	Create a database
+	- Code: heroku addons:create heroku-postgresql:<PLAN_NAME> (heroku addons:create heroku-postgresql:hobby-dev)
+4/ Create a table in the SQL database on Heroku app
+	Install Postgre Database in the local machine which deploys app on Cloud in distance
+	Code: sudo apt-get install postgresql
+	Login 
+
+	Create the 
+
+
+
+
+
+
+GCP Kubernetes
+Deploy Java app on kubernette
+kubectl create deployment hello-java

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="monitor.MonitorResult"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Environment"/>
+<fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
+<fullyQualifiedTypeName name="org.hibernate.service.ServiceRegistry"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.net.URISyntaxException"/>
+<fullyQualifiedTypeName name="java.net.URI"/>
+<fullyQualifiedTypeName name="monitor.Monitor"/>
+<fullyQualifiedTypeName name="org.javabip.executor.EmptyGlue"/>
+<fullyQualifiedTypeName name="org.javabip.executor.monitor.MonitorResult"/>
+<fullyQualifiedTypeName name="org.javabip.executor.test.TransitionTrigger.component2"/>
+<fullyQualifiedTypeName name="org.javabip.executor.test.TransitionTrigger.component1"/>
+<fullyQualifiedTypeName name="org.javabip.executor.monitor.Monitor"/>
+<fullyQualifiedTypeName name="org.javabip.executor.monitor.Switch"/>
+<fullyQualifiedTypeName name="org.javabip.engine.api.BDDBIPEngine"/>
+</qualifiedTypeNameHistroy>

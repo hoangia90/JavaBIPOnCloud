@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-Description: It is an engine.
+Bundle-SymbolicName: org.javabip.engine.coordinator
+Built-By: Gia
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1571923675914
+Import-Package: akka.actor;version="[2.5,3)",akka.japi;version="[2.5,3
+ )",net.sf.javabdd,org.javabip.api;version="[0.1,1)",org.javabip.engin
+ e.api;version="[0.1,1)",org.javabip.exceptions;version="[0.1,1)",org.
+ javabip.executor;version="[0.1,1)",org.slf4j;version="[1.5,2)"
+Tool: Bnd-1.43.0
+Export-Package: org.javabip.engine.coordinator;uses:="org.javabip.api,
+ akka.japi,org.javabip.executor,net.sf.javabdd,org.javabip.exceptions,
+ org.slf4j,akka.actor,org.javabip.engine.api";version="0.1.0.SNAPSHOT"
+Bundle-Version: 0.1.0.SNAPSHOT
+Bundle-Name: BIP :: Engine :: Coordinators
+Embed-Transitive: true
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_192
+

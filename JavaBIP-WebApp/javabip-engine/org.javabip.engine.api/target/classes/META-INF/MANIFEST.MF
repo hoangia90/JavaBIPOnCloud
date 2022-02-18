@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-Description: It is an engine API.
+Bundle-SymbolicName: org.javabip.engine.api
+Built-By: Gia
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1571923674316
+Import-Package: net.sf.javabdd,org.javabip.api;version="[0.1,1)",org.j
+ avabip.exceptions;version="[0.1,1)"
+Tool: Bnd-1.43.0
+Export-Package: org.javabip.engine.api;uses:="net.sf.javabdd,org.javab
+ ip.exceptions,org.javabip.api";version="0.1.0.SNAPSHOT"
+Bundle-Version: 0.1.0.SNAPSHOT
+Bundle-Name: BIP :: Engine :: API
+Embed-Transitive: true
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_192
+

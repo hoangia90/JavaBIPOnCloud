@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-Description: It contains all the classes for the BIP executor f
+ unctionality.
+Bundle-SymbolicName: org.javabip.executor
+Built-By: Gia
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1571921459986
+Embed-Dependency: antlr4, antlr4-runtime, org.abego.treelayout.core, a
+ ntlr-runtime, antlr, ST4, stringtemplate
+Import-Package: javax.imageio,javax.print,javax.print.attribute,javax.
+ swing,javax.swing.border,javax.swing.event,javax.swing.text,javax.swi
+ ng.tree,javax.xml.bind.annotation,org.javabip.annotations;version="[0
+ .1,1)",org.javabip.api;version="[0.1,1)",org.javabip.exceptions;versi
+ on="[0.1,1)",org.javabip.glue,org.slf4j;version="[1.5,2)"
+Tool: Bnd-1.43.0
+Spring-Context: *;publish-context:=false;create-asynchronously:=true
+Export-Package: org.javabip.executor;uses:="org.javabip.exceptions,org
+ .slf4j,org.javabip.api,org.javabip.annotations,javax.xml.bind.annotat
+ ion";version="0.1.0.SNAPSHOT"
+Bundle-Version: 0.1.0.SNAPSHOT
+Bundle-Name: BIP :: Core :: Executor
+Bundle-ClassPath: .,antlr4-4.0.jar,antlr4-runtime-4.0.jar,org.abego.tr
+ eelayout.core-1.0.1.jar,antlr-runtime-3.5.jar,antlr-2.7.7.jar,ST4-4.0
+ .7.jar,stringtemplate-3.2.1.jar
+Embed-Transitive: true
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_192
+
